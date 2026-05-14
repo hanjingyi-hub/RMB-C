@@ -1,0 +1,16 @@
+{
+  "name": "rmb-c",
+  "version": "0.1.0",
+  "description": "RMBC, a USDC-style centrally issued ERC-20 stablecoin prototype.",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/run-hardhat.mjs build",
+    "test": "node scripts/run-hardhat.mjs test",
+    "deploy:local": "node scripts/run-hardhat.mjs run scripts/deploy.ts"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox-viem": "^5.0.0",
+    "hardhat": "^3.4.5",
+    "typescript": "^5.9.0"
+  }
+}

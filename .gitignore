@@ -1,0 +1,11 @@
+node_modules/
+.appdata/
+.hardhat-home/
+.npm-cache/
+artifacts/
+cache/
+coverage/
+coverage.json
+ignition/deployments/
+typechain-types/
+.env
